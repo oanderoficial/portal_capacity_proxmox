@@ -1,0 +1,52 @@
+body {
+  background-color: #f8fafc;
+}
+.card {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+.card-header {
+  background-color: #f3f4f6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.navbar {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+.modern-tabs {
+  margin-bottom: 1rem;
+}
+.modern-tab {
+  padding: 10px 14px;
+  margin-right: 6px;
+  border-radius: 10px 10px 0 0;
+  background-color: #eef2f7;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.modern-tab--selected {
+  background-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.dash-table-container {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.gauge-graph {
+  height: 160px;
+}
+@media (max-width: 992px) {
+  .gauge-graph {
+    height: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .gauge-graph {
+    height: 140px;
+  }
+}
+@media (max-width: 576px) {
+  .gauge-graph {
+    height: 130px;
+  }
+}
